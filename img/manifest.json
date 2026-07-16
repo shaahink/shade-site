@@ -1,0 +1,1174 @@
+{
+ "p01": [
+  {
+   "slug": "hat-illustrations",
+   "alt": "Digital illustration sheet of nine bucket hat designs in pink, blue and red",
+   "lg": {
+    "w": 1024,
+    "h": 768,
+    "kb": 60
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 29
+   }
+  },
+  {
+   "slug": "drip-hat-blue",
+   "alt": "Model wearing a sky-blue bucket hat with dark blue drip applique",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 132
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 47
+   }
+  },
+  {
+   "slug": "hat-red",
+   "alt": "Model wearing a bright red bucket hat, seen from the side",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 136
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 48
+   }
+  },
+  {
+   "slug": "drip-hat-wip",
+   "alt": "Teal bucket hat with drip applique in progress on the sewing table",
+   "lg": {
+    "w": 855,
+    "h": 1024,
+    "kb": 97
+   },
+   "th": {
+    "w": 534,
+    "h": 640,
+    "kb": 43
+   }
+  },
+  {
+   "slug": "strawberry-beret",
+   "alt": "Portrait of a model in a strawberry-patterned beret and colourful shirt",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 210
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 70
+   }
+  },
+  {
+   "slug": "strawberry-applique",
+   "alt": "Pink strawberry applique pieces being cut on the worktable",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 80
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 29
+   }
+  },
+  {
+   "slug": "strawberry-hat",
+   "alt": "Model at a sunny window wearing a pink strawberry bucket hat",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 143
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 50
+   }
+  },
+  {
+   "slug": "petal-applique-wip",
+   "alt": "Brown and red petal applique pieces laid out on fabric",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 146
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 50
+   }
+  },
+  {
+   "slug": "hat-in-hand",
+   "alt": "Hand holding up a turquoise and brown hat in the courtyard",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 110
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 36
+   }
+  },
+  {
+   "slug": "hat-over-face",
+   "alt": "Model relaxing in an armchair with a pink hat tipped over the face",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 148
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 45
+   }
+  },
+  {
+   "slug": "hat-stack-night",
+   "alt": "Model at night wearing a tall stack of colourful hats",
+   "lg": {
+    "w": 1124,
+    "h": 1280,
+    "kb": 294
+   },
+   "th": {
+    "w": 562,
+    "h": 640,
+    "kb": 62
+   }
+  },
+  {
+   "slug": "hat-stack-olive",
+   "alt": "Stack of olive-green bucket hats on the sewing table",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 175
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 54
+   }
+  },
+  {
+   "slug": "sewing-machine",
+   "alt": "Sewing machine needle lit in warm amber light while stitching a hat",
+   "lg": {
+    "w": 901,
+    "h": 1600,
+    "kb": 140
+   },
+   "th": {
+    "w": 360,
+    "h": 640,
+    "kb": 25
+   }
+  },
+  {
+   "slug": "hat-rose-petals",
+   "alt": "Purple bucket hat turned upside down and filled with rose petals",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 195
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 43
+   }
+  },
+  {
+   "slug": "flat-cap",
+   "alt": "Grey plaid flat cap photographed on a white background",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 251
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 38
+   }
+  },
+  {
+   "slug": "fitting-01",
+   "alt": "Fitting session with hats and orange straps in a traditional interior",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 221
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 49
+   }
+  },
+  {
+   "slug": "fitting-02",
+   "alt": "Second fitting shot with hats and orange straps in a traditional interior",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 233
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 49
+   }
+  }
+ ],
+ "p02": [
+  {
+   "slug": "grey-suit-front",
+   "alt": "Model in a structured grey jacket with sculpted shoulders and wide trousers",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 100
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 32
+   }
+  },
+  {
+   "slug": "grey-jacket-back",
+   "alt": "Back view of a tailored grey jacket with angular shoulder seams",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 147
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 45
+   }
+  },
+  {
+   "slug": "shoulder-detail",
+   "alt": "Close-up of the folded shoulder construction of a grey jacket",
+   "lg": {
+    "w": 1027,
+    "h": 1280,
+    "kb": 242
+   },
+   "th": {
+    "w": 514,
+    "h": 640,
+    "kb": 59
+   }
+  },
+  {
+   "slug": "wide-trousers",
+   "alt": "Wide-leg grey trousers worn in front of a workshop window",
+   "lg": {
+    "w": 1280,
+    "h": 1004,
+    "kb": 192
+   },
+   "th": {
+    "w": 640,
+    "h": 502,
+    "kb": 57
+   }
+  },
+  {
+   "slug": "trouser-side",
+   "alt": "Side view of pleated wide-leg trousers",
+   "lg": {
+    "w": 1280,
+    "h": 1110,
+    "kb": 125
+   },
+   "th": {
+    "w": 640,
+    "h": 555,
+    "kb": 37
+   }
+  },
+  {
+   "slug": "corset-look",
+   "alt": "Black laced corset worn over a sheer iridescent blouse",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 112
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 35
+   }
+  },
+  {
+   "slug": "mesh-detail",
+   "alt": "Detail of a sheer mesh top with delicate applique",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 199
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 58
+   }
+  },
+  {
+   "slug": "shirt-look",
+   "alt": "Model in an iridescent shirt and lavender trousers",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 115
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 36
+   }
+  },
+  {
+   "slug": "blue-skirt",
+   "alt": "Flowing blue skirt in motion",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 162
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 46
+   }
+  },
+  {
+   "slug": "circle-skirt",
+   "alt": "Blue iridescent circle skirt spread out to show its full width",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 205
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 67
+   }
+  },
+  {
+   "slug": "bodice-wip",
+   "alt": "Printed bodice piece in progress on the worktable",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 158
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 52
+   }
+  },
+  {
+   "slug": "pink-look",
+   "alt": "Model in a pale top and wide pink trousers",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 102
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 31
+   }
+  },
+  {
+   "slug": "pink-look-pose",
+   "alt": "Model posing in the pink look with sunglasses",
+   "lg": {
+    "w": 1280,
+    "h": 1128,
+    "kb": 129
+   },
+   "th": {
+    "w": 640,
+    "h": 564,
+    "kb": 43
+   }
+  },
+  {
+   "slug": "grey-suit-pose",
+   "alt": "Full look with the grey tailored jacket and wide trousers",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 91
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 28
+   }
+  }
+ ],
+ "p04": [
+  {
+   "slug": "gold-swirl",
+   "alt": "Book page detail with gold and blue swirling silkscreen texture",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 532
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 89
+   }
+  },
+  {
+   "slug": "later-that",
+   "alt": "Torn paper fragments reading Later that and My sister on a green page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 299
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 38
+   }
+  },
+  {
+   "slug": "i-was-the-one",
+   "alt": "Torn text reading I was the one beside a white circle on a green page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 306
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 39
+   }
+  },
+  {
+   "slug": "finger",
+   "alt": "Fingertip resting on an ochre page with purple line drawings",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 348
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 50
+   }
+  },
+  {
+   "slug": "crying",
+   "alt": "Torn paper fragment reading crying on a red and green page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 395
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 60
+   }
+  },
+  {
+   "slug": "today-is-cloudy",
+   "alt": "Grey page corner reading Much later: Today is cloudy",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 296
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 34
+   }
+  },
+  {
+   "slug": "pff",
+   "alt": "Torn fragment reading Pff over pale blue ray patterns",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 337
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 51
+   }
+  },
+  {
+   "slug": "candles",
+   "alt": "Blue page spread with line drawings of candlesticks",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 265
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 32
+   }
+  },
+  {
+   "slug": "waves",
+   "alt": "Ochre and green page with hand-drawn wave lines",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 307
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 40
+   }
+  },
+  {
+   "slug": "that-was-me",
+   "alt": "Torn fragment reading that was me on a pale blue illustrated page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 289
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 36
+   }
+  },
+  {
+   "slug": "one-and-me",
+   "alt": "Two torn fragments reading I was the one and that was me",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 289
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 36
+   }
+  },
+  {
+   "slug": "i-was-the-darkness",
+   "alt": "Torn text reading I was the darkness across a light blue page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 325
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 44
+   }
+  },
+  {
+   "slug": "watching-you",
+   "alt": "Deep red page with torn text reading I was the darkness watching you",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 396
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 49
+   }
+  },
+  {
+   "slug": "hearing-you",
+   "alt": "Orange page with torn text reading I was the darkness hearing you",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 366
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 57
+   }
+  },
+  {
+   "slug": "some-time-later",
+   "alt": "Torn strip reading Some Time Later on a grey page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 299
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 45
+   }
+  },
+  {
+   "slug": "long-shadow",
+   "alt": "Blue page with torn text reading long shadow",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 362
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 55
+   }
+  },
+  {
+   "slug": "idiot",
+   "alt": "Red and yellow flame-patterned page with torn text reading Idiot",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 271
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 48
+   }
+  },
+  {
+   "slug": "shadow-shadows",
+   "alt": "Red patterned page scattered with torn fragments reading shadow and shadows",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 272
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 50
+   }
+  },
+  {
+   "slug": "vultures",
+   "alt": "Blue page with torn text reading and vultures",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 271
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 47
+   }
+  },
+  {
+   "slug": "dead",
+   "alt": "Vermilion page with a single torn fragment reading dead",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 312
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 53
+   }
+  },
+  {
+   "slug": "shadow-game",
+   "alt": "Blue and yellow page with torn text reading shadow game",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 281
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 49
+   }
+  },
+  {
+   "slug": "shadows-pink",
+   "alt": "Pink and red page detail with torn text reading shadows",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 159
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 31
+   }
+  },
+  {
+   "slug": "hand-on-blue",
+   "alt": "Hand resting on a cobalt blue silkscreened page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 320
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 46
+   }
+  },
+  {
+   "slug": "flame-red",
+   "alt": "Detail of a red and orange flame-patterned page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 326
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 44
+   }
+  },
+  {
+   "slug": "purple-page",
+   "alt": "Purple page detail with ochre line pattern",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 237
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 34
+   }
+  },
+  {
+   "slug": "laughing",
+   "alt": "Page detail with the word laughing showing through the paper",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 250
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 39
+   }
+  },
+  {
+   "slug": "crushed",
+   "alt": "Dark page with white text about being crushed under a foot",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 281
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 42
+   }
+  },
+  {
+   "slug": "red-streak",
+   "alt": "Dark page with a glowing red brushstroke",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 308
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 45
+   }
+  },
+  {
+   "slug": "shadow-torn",
+   "alt": "Torn fragment reading shadow on a dark illustrated page",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 310
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 51
+   }
+  },
+  {
+   "slug": "crying-under-the-pot",
+   "alt": "Blue page with torn text reading crying under the pot",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 351
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 49
+   }
+  }
+ ],
+ "p05": [
+  {
+   "slug": "cafe-view",
+   "alt": "Wide view of the exhibition space with works hung above red benches",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 266
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 55
+   }
+  },
+  {
+   "slug": "print-cluster",
+   "alt": "Cluster of silkscreen prints and translucent orange overlays on a white wall",
+   "lg": {
+    "w": 1381,
+    "h": 1600,
+    "kb": 152
+   },
+   "th": {
+    "w": 552,
+    "h": 640,
+    "kb": 34
+   }
+  },
+  {
+   "slug": "orange-overlays",
+   "alt": "Layered translucent orange and red prints of hands holding tulips",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 190
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 33
+   }
+  },
+  {
+   "slug": "green-red-print",
+   "alt": "Print combining green stitched text and a red embroidered lamp and table",
+   "lg": {
+    "w": 1163,
+    "h": 1600,
+    "kb": 281
+   },
+   "th": {
+    "w": 465,
+    "h": 640,
+    "kb": 51
+   }
+  },
+  {
+   "slug": "translucent-poem",
+   "alt": "Translucent sheet with red and green stitched drawing layered over a poem",
+   "lg": {
+    "w": 1200,
+    "h": 1600,
+    "kb": 217
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 42
+   }
+  },
+  {
+   "slug": "car-drawing",
+   "alt": "Red stitched drawing of a car with a chandelier above it",
+   "lg": {
+    "w": 1264,
+    "h": 1600,
+    "kb": 200
+   },
+   "th": {
+    "w": 506,
+    "h": 640,
+    "kb": 37
+   }
+  },
+  {
+   "slug": "lamp-line-drawing",
+   "alt": "Large red and black continuous line drawing with lamps, shelves and shoes",
+   "lg": {
+    "w": 1600,
+    "h": 1067,
+    "kb": 190
+   },
+   "th": {
+    "w": 640,
+    "h": 427,
+    "kb": 38
+   }
+  },
+  {
+   "slug": "green-red-pair",
+   "alt": "Pair of small green and red stitched drawings side by side",
+   "lg": {
+    "w": 1600,
+    "h": 1066,
+    "kb": 184
+   },
+   "th": {
+    "w": 640,
+    "h": 427,
+    "kb": 25
+   }
+  },
+  {
+   "slug": "visitors",
+   "alt": "Visitors looking at small framed drawings in the exhibition",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 173
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 37
+   }
+  },
+  {
+   "slug": "visitor-fireplace",
+   "alt": "Visitor seated by the fireplace beneath a small red work",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 180
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 35
+   }
+  },
+  {
+   "slug": "red-frame",
+   "alt": "Small red framed work beside an empty stitched outline on the wall",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 90
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 17
+   }
+  },
+  {
+   "slug": "plant-corner",
+   "alt": "Snake plant in front of two small framed drawings",
+   "lg": {
+    "w": 1600,
+    "h": 1200,
+    "kb": 132
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 29
+   }
+  },
+  {
+   "slug": "wall-cluster",
+   "alt": "Cluster of prints and orange overlays with a drawing pinned above",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 126
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 39
+   }
+  },
+  {
+   "slug": "candles-install",
+   "alt": "Installation view with candlesticks on a wooden table",
+   "lg": {
+    "w": 1600,
+    "h": 1066,
+    "kb": 174
+   },
+   "th": {
+    "w": 640,
+    "h": 427,
+    "kb": 33
+   }
+  },
+  {
+   "slug": "candle-bench",
+   "alt": "Lit candle on a table in front of the exhibition wall",
+   "lg": {
+    "w": 720,
+    "h": 1600,
+    "kb": 111
+   },
+   "th": {
+    "w": 288,
+    "h": 640,
+    "kb": 20
+   }
+  },
+  {
+   "slug": "opening-night",
+   "alt": "The artist chatting with a visitor at the exhibition opening",
+   "lg": {
+    "w": 1600,
+    "h": 1067,
+    "kb": 185
+   },
+   "th": {
+    "w": 640,
+    "h": 427,
+    "kb": 36
+   }
+  },
+  {
+   "slug": "embroidery-hoop",
+   "alt": "Embroidery hoop and red-thread drawings on white cloth",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 293
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 66
+   }
+  },
+  {
+   "slug": "red-thread-figure",
+   "alt": "Close-up of a figure embroidered in red thread on white cloth",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 432
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 89
+   }
+  },
+  {
+   "slug": "red-thread-detail",
+   "alt": "Detail of dense red-thread embroidery forming a robed figure",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 395
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 92
+   }
+  },
+  {
+   "slug": "stitched-print",
+   "alt": "Green and red stitched print of a lamp pinned to the wall",
+   "lg": {
+    "w": 960,
+    "h": 1280,
+    "kb": 226
+   },
+   "th": {
+    "w": 480,
+    "h": 640,
+    "kb": 44
+   }
+  },
+  {
+   "slug": "drawings-flat",
+   "alt": "Small stitched drawings arranged flat on beige paper",
+   "lg": {
+    "w": 1280,
+    "h": 960,
+    "kb": 118
+   },
+   "th": {
+    "w": 640,
+    "h": 480,
+    "kb": 26
+   }
+  }
+ ],
+ "about": [
+  {
+   "slug": "portrait",
+   "alt": "Azarnoosh talking with guests at her exhibition opening",
+   "lg": {
+    "w": 1600,
+    "h": 1067,
+    "kb": 184
+   },
+   "th": {
+    "w": 640,
+    "h": 427,
+    "kb": 36
+   }
+  }
+ ]
+}
