@@ -1,98 +1,131 @@
-/* Lightbox for gallery pages + tiny niceties. Vanilla JS, no deps. */
+/* Two small things, no dependencies:
+   1. Home — the name casts a shadow that answers the cursor
+      (the cursor is the light; سایه falls the other way).
+   2. Project 03 — a quiet custom video player. */
 (function () {
   "use strict";
 
-  var links = Array.prototype.slice.call(document.querySelectorAll(".gallery a.g"));
-  if (!links.length) return;
+  var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  // Build lightbox skeleton once
-  var lb = document.createElement("div");
-  lb.className = "lb";
-  lb.setAttribute("role", "dialog");
-  lb.setAttribute("aria-modal", "true");
-  lb.setAttribute("aria-label", "Image viewer");
-  lb.innerHTML =
-    '<figure>' +
-    '  <img alt="">' +
-    '  <figcaption></figcaption>' +
-    '</figure>' +
-    '<span class="lb-count" aria-hidden="true"></span>' +
-    '<button class="lb-close" aria-label="Close (Esc)">&times;</button>' +
-    '<button class="lb-prev" aria-label="Previous image">&larr;</button>' +
-    '<button class="lb-next" aria-label="Next image">&rarr;</button>';
-  document.body.appendChild(lb);
+  /* ---------- shadow play (home) ---------- */
 
-  var img = lb.querySelector("img");
-  var cap = lb.querySelector("figcaption");
-  var count = lb.querySelector(".lb-count");
-  var current = -1;
-  var lastFocus = null;
+  var name = document.querySelector("[data-shade]");
+  if (name) {
+    var fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    var raf = null;
 
-  function show(i) {
-    current = (i + links.length) % links.length;
-    var a = links[current];
-    img.src = a.getAttribute("href");
-    img.alt = a.dataset.cap || "";
-    cap.textContent = a.dataset.cap || "";
-    count.textContent = (current + 1) + " / " + links.length;
-    // Preload neighbours for snappy arrows
-    [current + 1, current - 1].forEach(function (n) {
-      var pre = new Image();
-      pre.src = links[(n + links.length) % links.length].getAttribute("href");
-    });
-  }
+    var cast = function (dx, dy) {
+      var d = Math.hypot(dx, dy) || 1;
+      var k = Math.min(d / 340, 1);              // how far the light is, 0..1
+      var len = 5 + 21 * k;                      // shadow grows as light recedes
+      name.style.setProperty("--sx", ((-dx / d) * len).toFixed(1) + "px");
+      name.style.setProperty("--sy", ((-dy / d) * len).toFixed(1) + "px");
+      name.style.setProperty("--sb", (6 + 24 * k).toFixed(1) + "px");
+      name.style.setProperty("--so", (0.26 - 0.12 * k).toFixed(3));
+    };
 
-  function open(i) {
-    lastFocus = document.activeElement;
-    lb.classList.add("open");
-    document.body.style.overflow = "hidden";
-    show(i);
-    lb.querySelector(".lb-close").focus();
-  }
-
-  function close() {
-    lb.classList.remove("open");
-    document.body.style.overflow = "";
-    img.src = "";
-    if (lastFocus) lastFocus.focus();
-  }
-
-  links.forEach(function (a, i) {
-    a.addEventListener("click", function (e) {
-      e.preventDefault();
-      open(i);
-    });
-  });
-
-  lb.querySelector(".lb-close").addEventListener("click", close);
-  lb.querySelector(".lb-prev").addEventListener("click", function () { show(current - 1); });
-  lb.querySelector(".lb-next").addEventListener("click", function () { show(current + 1); });
-
-  lb.addEventListener("click", function (e) {
-    if (e.target === lb || e.target.tagName === "FIGURE") close();
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (!lb.classList.contains("open")) return;
-    if (e.key === "Escape") close();
-    else if (e.key === "ArrowLeft") show(current - 1);
-    else if (e.key === "ArrowRight") show(current + 1);
-    else if (e.key === "Tab") {
-      // keep focus inside the dialog
-      var focusables = lb.querySelectorAll("button");
-      var first = focusables[0], last = focusables[focusables.length - 1];
-      if (e.shiftKey && document.activeElement === first) { last.focus(); e.preventDefault(); }
-      else if (!e.shiftKey && document.activeElement === last) { first.focus(); e.preventDefault(); }
+    if (!reduced && fine) {
+      window.addEventListener("pointermove", function (e) {
+        if (raf) return;
+        raf = requestAnimationFrame(function () {
+          raf = null;
+          var r = name.getBoundingClientRect();
+          cast(e.clientX - (r.left + r.width / 2),
+               e.clientY - (r.top + r.height / 2));
+        });
+      }, { passive: true });
+    } else if (!reduced) {
+      // no cursor: the light drifts by itself, slow as an afternoon
+      var t0 = performance.now();
+      var drift = function (t) {
+        var a = (t - t0) / 9000;
+        cast(Math.cos(a) * 300, Math.sin(a) * 300 - 120);
+        requestAnimationFrame(drift);
+      };
+      requestAnimationFrame(drift);
     }
-  });
+  }
 
-  // Swipe support
-  var touchX = null;
-  lb.addEventListener("touchstart", function (e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
-  lb.addEventListener("touchend", function (e) {
-    if (touchX === null) return;
-    var dx = e.changedTouches[0].clientX - touchX;
-    if (Math.abs(dx) > 45) show(current + (dx < 0 ? 1 : -1));
-    touchX = null;
-  }, { passive: true });
+  /* ---------- video player (project 03) ---------- */
+
+  var player = document.querySelector("[data-player]");
+  if (player) {
+    var video = player.querySelector("video");
+    var big   = player.querySelector(".p-big");
+    var play  = player.querySelector(".p-play");
+    var seek  = player.querySelector(".p-seek");
+    var time  = player.querySelector(".p-time");
+    var mute  = player.querySelector(".p-mute");
+    var full  = player.querySelector(".p-full");
+
+    var ICON = {
+      play:  '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M3 1l11 7-11 7z"/></svg>',
+      pause: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M3 1h4v14H3zM9 1h4v14H9z"/></svg>',
+      sound: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M1 5h3l4-4v14l-4-4H1z"/><path fill="none" stroke="currentColor" stroke-width="1.4" d="M10.5 5c1.6 1.6 1.6 4.4 0 6"/></svg>',
+      muted: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M1 5h3l4-4v14l-4-4H1z"/><path fill="none" stroke="currentColor" stroke-width="1.4" d="M10 6l4 4m0-4l-4 4"/></svg>',
+      full:  '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M1 5V1h4M11 1h4v4M15 11v4h-4M5 15H1v-4"/></svg>'
+    };
+    full.innerHTML = ICON.full;
+
+    var fmt = function (s) {
+      if (!isFinite(s)) return "0:00";
+      s = Math.round(s);
+      return Math.floor(s / 60) + ":" + ("0" + (s % 60)).slice(-2);
+    };
+
+    var paint = function () {
+      var playing = !video.paused && !video.ended;
+      player.classList.toggle("playing", playing);
+      play.innerHTML = playing ? ICON.pause : ICON.play;
+      play.setAttribute("aria-label", playing ? "Pause" : "Play");
+      mute.innerHTML = video.muted ? ICON.muted : ICON.sound;
+      mute.setAttribute("aria-label", video.muted ? "Unmute" : "Mute");
+    };
+
+    var tick = function () {
+      var d = video.duration;
+      time.textContent = fmt(video.currentTime) + " / " + fmt(d);
+      if (isFinite(d) && d > 0) {
+        var pct = (video.currentTime / d) * 100;
+        seek.value = pct;
+        seek.style.backgroundSize = pct + "% 100%";
+      }
+    };
+
+    var toggle = function () { video.paused || video.ended ? video.play() : video.pause(); };
+
+    big.addEventListener("click", toggle);
+    play.addEventListener("click", toggle);
+    video.addEventListener("click", toggle);
+    video.addEventListener("play", paint);
+    video.addEventListener("pause", paint);
+    video.addEventListener("ended", paint);
+    video.addEventListener("timeupdate", tick);
+    video.addEventListener("loadedmetadata", tick);
+
+    seek.addEventListener("input", function () {
+      if (isFinite(video.duration)) {
+        video.currentTime = (seek.value / 100) * video.duration;
+        seek.style.backgroundSize = seek.value + "% 100%";
+      }
+    });
+
+    mute.addEventListener("click", function () {
+      video.muted = !video.muted;
+      paint();
+    });
+
+    full.addEventListener("click", function () {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else if (player.requestFullscreen) {
+        player.requestFullscreen();
+      } else if (video.webkitEnterFullscreen) {
+        video.webkitEnterFullscreen();   // iOS Safari
+      }
+    });
+
+    paint();
+    tick();
+  }
 })();

@@ -37,12 +37,13 @@ def main():
     manifest[proj] = [e for e in manifest[proj] if e["slug"] != slug] + [entry]
     json.dump(manifest, open(mpath, "w", encoding="utf-8"), indent=1)
 
-    th = entry["th"]
-    print(f"""Saved {slug}-lg.jpg / {slug}-th.jpg — paste into the project page's .gallery:
+    lg = entry["lg"]
+    print(f"""Saved {slug}-lg.jpg / {slug}-th.jpg — paste into the project page's .stack:
 
-  <a class="g" href="../img/{proj}/{slug}-lg.jpg" data-cap="{alt}">
-    <img src="../img/{proj}/{slug}-th.jpg" alt="{alt}" width="{th['w']}" height="{th['h']}" loading="lazy">
-  </a>""")
+    <figure>
+      <img src="../img/{proj}/{slug}-lg.jpg" alt="{alt}" width="{lg['w']}" height="{lg['h']}" loading="lazy">
+      <figcaption>{alt}</figcaption>
+    </figure>""")
 
 if __name__ == "__main__":
     main()
